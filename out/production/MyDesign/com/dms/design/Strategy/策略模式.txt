@@ -4,3 +4,5 @@
 1.封装变化的概念
 2.编程中使用接口而不是用接口的实现。
 
+在JDK中的应用：
+利用Comparator实现排序，参见TreeSetTest2.java
