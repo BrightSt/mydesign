@@ -1,9 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73c3b5e2-0d98-48ff-8fa6-ed89ec35e212" name="Default" comment="策略模式案例 jdk中的策略模式" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="73c3b5e2-0d98-48ff-8fa6-ed89ec35e212" name="Default" comment="策略模式案例 jdk中的策略模式">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v1/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v1/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v1/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v1/V1.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v2/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v2/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v2/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v2/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v2/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v2/V2.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/ModelDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/V3.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/behavior/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/behavior/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/behavior/impl/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/behavior/impl/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/behavior/impl/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/behavior/impl/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/behavior/impl/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/behavior/impl/Squeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/a/Duck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/a/MallardDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/a/RedheadDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/a/RubberDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/Duck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/FlyBehavior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/FlyNoWay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/FlyWithWings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/MallardDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/MuteQuack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/Quack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/QuackBehavior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/RedheadDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/RubberDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/Squeak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/b/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/treeset/MyComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/treeset/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyDesign/com/dms/design/Strategy/treeset/TreeSetTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/a/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/a/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/a/RedheadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/a/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/FlyBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/FlyNoWay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/FlyWithWings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/MuteQuack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/Quack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/QuackBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dms/design/Strategy/v3/RedheadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/Squeak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/b/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dms/design/Strategy/treeset/TreeSetTest2.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +125,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="1le15WAszmb2VPEYh8Z02FOSjwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -73,32 +139,57 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547621430623" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/dms/design/Strategy/v3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\dongms\mydesign\mydesign\src\com\dms\design\Strategy\v3" />
+      <recent name="D:\project\dongms\mydesign\mydesign\src\com\dms\design\Strategy\v2" />
       <recent name="F:\GitHub\MyDesign\src\com\dms\design\Strategy\b" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.TreeSetTest2">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dms.design.Strategy.v3.Main" />
+      <module name="MyDesign" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dms.design.Strategy.v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dms.design.Strategy.v1.Main" />
+      <module name="MyDesign" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dms.design.Strategy.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dms.design.Strategy.test.Test" />
       <module name="MyDesign" />
@@ -147,13 +238,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -165,15 +269,20 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.TreeSetTest2" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TreeSetTest2" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -192,6 +301,7 @@
       <workItem from="1547618417568" duration="2706000" />
       <workItem from="1547621204276" duration="251000" />
       <workItem from="1547697206859" duration="643000" />
+      <workItem from="1607942564219" duration="5712000" />
     </task>
     <task id="LOCAL-00001" summary="策略模式在jdk中的应用">
       <created>1547620725627</created>
@@ -256,7 +366,18 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="策略模式在jdk中的应用" />
