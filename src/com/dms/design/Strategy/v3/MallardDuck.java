@@ -3,6 +3,9 @@ package com.dms.design.Strategy.v3;
 import com.dms.design.Strategy.v3.behavior.impl.FlyWithWings;
 import com.dms.design.Strategy.v3.behavior.impl.Quack;
 
+/**
+ * 绿头鸭
+ */
 public class MallardDuck extends Duck {
 
     public MallardDuck(){
